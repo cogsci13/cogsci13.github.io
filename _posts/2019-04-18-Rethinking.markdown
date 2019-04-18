@@ -6,7 +6,10 @@ date:   2019-04-18
 
 <p class="intro"><span class="dropcap">I</span>ntroduction. Most cognitively demanding tasks require temporal storages of transient information, i.e. short-term store (STS). It is located between sensory stores and long-term stores, and used to hold and manipulate information for cogni- tive tasks as a working memory1. Though the dual-task study2 showed that STS was really acting as a working memory, the processing time and accuracy weren’t enough to account for working memory. As a result, it was assumed that the working memory is not simply a singular storage unit like STS, but made up of a few components.</p>
 
-As a new approach, while replacing the concept of the STS, Baddeley and Hitch (1974) suggested the working memory (WM) model, and it has been successful in that it could explain non-unitary feature of STS and provide more specific explanation about information transfer between short-term memory and long-term memory. According to Baddeley (2003a), there are four components of working memory, and among them, phonologi- cal loop (PL) has been investigated rigorously, with related to various language functions and its deficits.
+As a new approach, while replacing the concept of the STS, Baddeley and Hitch (1974) suggested the working memory (WM) model, and it has been successful in that it could explain non-unitary feature of STS and provide more specific explanation about information transfer between short-term memory and long-term memory. According to Baddeley (2003a), there are four components of working memory, and among them, phonological loop (PL) has been investigated rigorously, with related to various language functions and its deficits.
+
+
+Figure1. Working Memory model (Baddeley, 2003a)
 
 The PL houses speech-based information and the memory trace to the PL fades after about 2 seconds. Articulatory control takes written material and converts it into a phonological code to be stored and rehearsal can re-strengthen a memory trace before it disappears. All these processes are supervised and coordinated by the central executive (CE) unit.
 
