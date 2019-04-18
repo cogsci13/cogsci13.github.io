@@ -4,7 +4,7 @@ title:  "Rethinking phonological loop in working memory model: phonological dive
 date:   2019-04-18
 ---
 
-<p class="intro"><span class="dropcap">I</span>ntroduction. Most cognitively demanding tasks require temporal storages of transient information, i.e. short-term store (STS). It is located between sensory stores and long-term stores, and used to hold and manipulate information for cogni- tive tasks as a working memory1. Though the dual-task study2 showed that STS was really acting as a working memory, the processing time and accuracy weren’t enough to account for working memory. As a result, it was assumed that the working memory is not simply a singular storage unit like STS, but made up of a few components.</p>
+<p class="intro"><span class="dropcap">I</span>ntroduction. Most cognitively demanding tasks require temporal storages of transient information, i.e. short-term store (STS). It is located between sensory stores and long-term stores, and used to hold and manipulate information for cognitive tasks as a working memory1. Though the dual-task study2 showed that STS was really acting as a working memory, the processing time and accuracy weren’t enough to account for working memory. As a result, it was assumed that the working memory is not simply a singular storage unit like STS, but made up of a few components.</p>
 
 As a new approach, while replacing the concept of the STS, Baddeley and Hitch (1974) suggested the working memory (WM) model, and it has been successful in that it could explain non-unitary feature of STS and provide more specific explanation about information transfer between short-term memory and long-term memory. According to Baddeley (2003a), there are four components of working memory, and among them, phonological loop (PL) has been investigated rigorously, with related to various language functions and its deficits.
 
@@ -83,6 +83,16 @@ The essential differences between two pathways are meaningfulness and phonologic
 
 Concluding Remarks
 Although the new model in Figure3 provides more precise accounts for the PL, it’s still unclear how we learn new words. In addition, it is also believed that there are certainly links between reading development and the PL. That means the role of PL or verbal short-term memory should include learning of letter-sound associations (Gathercole, 1990). Thus, there are still many rooms to modify the model, especially with related to language devel- opment. In that sense, this review will provide a good starting point.
+
+
+1 It indicates the modal model suggested by Atkinson and Shiffrin (1968).
+2 Subject performs one task that occupies most of working memory capacity (a reasoning or judgment task) while also performing another task that relies on working memory (a memory task)
+3 Mnemonic distinctiveness (...) is a property of a cue in context. It refers to the ability of a cue to access a particular target in a particular context. (Nairne, 2005)
+4 Irrelevant speech and articulatory suppression show that language material has mandatory access to a phonological processor. In combinations of two effects, the additive effect is observed only in auditory presentation (Hanley and Bakopoulou, 2003). This means that it’s not caused by the decrease of general attention.
+5 It presupposes two systems, i.e. inner ear (sets up a phonological representation) and inner voice (articulatory loop system). However, there is an alternative view of one system that different input leaves difference traces. In this view, there is only the difference of trace strength, i.e. weak traces (inner ear) through visual input and strong traces (inner voice) through auditory input.
+6 The additional suffix in stimulus lowers performance in the recency part of the serial position curve.
+7 Here, the non-language means all sounds except for language.
+8 I mean, here, linguistic sounds indicate acoustic signals which have or evoke any meanings.
 
 References
 Atkinson, R.C. and Shiffrin, R.M. (1968). Human memory: A proposed system and its control processes. In K.W. Spence and J.T. Spence (eds.), The psychology of learning and motivation, 8, London: Academic Press.
