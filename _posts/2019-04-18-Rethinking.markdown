@@ -92,31 +92,58 @@ Although the new model in Figure3 provides more precise accounts for the PL, itâ
 
 
 1 It indicates the modal model suggested by Atkinson and Shiffrin (1968).
+
 2 Subject performs one task that occupies most of working memory capacity (a reasoning or judgment task) while also performing another task that relies on working memory (a memory task)
+
 3 Mnemonic distinctiveness (...) is a property of a cue in context. It refers to the ability of a cue to access a particular target in a particular context. (Nairne, 2005)
+
 4 Irrelevant speech and articulatory suppression show that language material has mandatory access to a phonological processor. In combinations of two effects, the additive effect is observed only in auditory presentation (Hanley and Bakopoulou, 2003). This means that itâ€™s not caused by the decrease of general attention.
+
 5 It presupposes two systems, i.e. inner ear (sets up a phonological representation) and inner voice (articulatory loop system). However, there is an alternative view of one system that different input leaves difference traces. In this view, there is only the difference of trace strength, i.e. weak traces (inner ear) through visual input and strong traces (inner voice) through auditory input.
+
 6 The additional suffix in stimulus lowers performance in the recency part of the serial position curve.
+
 7 Here, the non-language means all sounds except for language.
+
 8 I mean, here, linguistic sounds indicate acoustic signals which have or evoke any meanings.
 
+
 References
+
 Atkinson, R.C. and Shiffrin, R.M. (1968). Human memory: A proposed system and its control processes. In K.W. Spence and J.T. Spence (eds.), The psychology of learning and motivation, 8, London: Academic Press.
+
 Baddeley, A.D. (1998). Recent developments in working memory. Current Opinion in Neurobiology, 8:2, 234- 238.
+
 Baddeley, A.D. (2003a). Working Memory: Looking Back and Looking Forward. Nature, 4, 829-839.
+
 Baddeley, A.D. (2003b). Working memory and language: an overview. Journal of Communication Disorders, 36, 189-208.
+
 Baddeley, A.D. and Hitch, G.J. (1974). Working memory. In G. Bower (ed.), The psychology of learning and motivation, 8, 47-90, New York: Academic Press.
+
 Baddeley, A.D., Gathercole, S., and Papagno, C. (1998). The phonological loop as a language learning device. Psychological Review, 105, 158-173.
+
 Baddeley, A.D., Thomson, N., and Buchanan, M. (1975). Word length and the structure of short term memory. Journal of Verbal Learning and Verbal Behavior, 14, 575-589.
+
 Conrad, R. (1964). Acoustic confusions in immediate memory. British Journal of Psychology, 55, 75-84.
+
 Conrad, R. and Hull, A.J. (1964). Information, acoustic confusion and memory span. British Journal of Psychology, 55, 429-432.
+
 Conrad, R. and Hull, A.J. (1968). Input modality and the serial position curve in short term memory. Psychonomic Science, 10:4, 135-136.
+
 Crowder, R.G. and Morton, J. (1969). Precategorical acoustic storage (PAS). Perception and Psychophysics, 5, 365-373.
+
 Gathercole, S.E. (1990). Working memory and language development: How close is the link? The Psychologist, 57-60.
+
 Hanley, J.R. and Bakopoulou, E. (2003). Irrelevant speech, articulatory suppression, and phonological similarity: A test of the phonological loop model and the feature model. Psychonomic Bulletin and Review, 10:2, 435-444.
+
 Nairne, J.S. (2005). Modeling distinctiveness: Implications for general memory theory. In R.R. Hunt & J. Worthen (eds.), Distinctiveness and memory. New York: Oxford University Press, 27-46.
+
 Papagno, C., Valentine, T., and Baddeley, A.D. (1991). Phonological short-term memory and foreign language vocabulary learning. Journal of Memory and Language, 30, 331-347.
+
 Shallice, T. and Butterworth, B. (1977). Short-term memory impairment and spontaneous speech. Neuropsychologia, 15, 729-735.
+
 Vallar, G. and Baddeley, A.D. (1984). Fractionation of working memory: Neuropsychological evidence for a phonological short-term store. Journal of Verbal Learning and Verbal Behavior, 23, 151-161.
+
 Vallar, G. and Shallice, T. (1990). Neuropsychological Impairments of Short-term Memory, Cambridge University Press: Cambridge.
+
 Yoo, S., Jeon, H., and Lee, K. (2009). Auditory stimuli-specific divergence of phonological map in human cortical areas. Proceedings of the Korean Society of Cognitive Science, 88-94, May 15-16, Seoul, Korea.
