@@ -71,6 +71,10 @@ Based on this fact, we can assume that the PL has two distinct processes or neur
 
 To complete it, in Figure3, I suggested a revised ver- sion of PL model. It depicts the direct pathway in detail in view of unfamiliar sounds processing.
 
+<img src="{{ '/assets/img/Suggested Phonological Loop.png' | prepend: site.baseurl }}" alt="">
+
+Figure3. Suggested Phonological Loop
+
 As shown before, though it has weakness as a complete theory, the concept of PAS is useful to account for how the brain deals with auditory inputs. After spectrotemporal analysis, each phonological sound is automatically stored in PAS automatically. At the same time, the phonological analysis tries to link it into the previous phonological forms, i.e. learned words. Accessed to the stored knowledge of each sound, the subvocal rehearsal process generates the phonological form from the Long-Term Memory (LTM). In this way, the PL stores internally generated phonological sequences as well as sequences of spoken stimuli.
 
 In contrast, if failing to access the stored knowledge of the input sound, the PL including rehearsal process can’t be activated any more. Instead, the direct pathway from PAS becomes to have more crucial role in verbal working memory. Because there is no relevant phonological code for the input, the phonological code to articulate is generated temporarily, that is, we simply imitate or mimic the unfamiliar sounds without any relevant meanings. After all, whether it is accessed from the LTM or temporarily generated, the phonological code is ex- ecuted in the phonological output buffer.
