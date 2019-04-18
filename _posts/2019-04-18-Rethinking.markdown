@@ -8,9 +8,10 @@ date:   2019-04-18
 
 As a new approach, while replacing the concept of the STS, Baddeley and Hitch (1974) suggested the working memory (WM) model, and it has been successful in that it could explain non-unitary feature of STS and provide more specific explanation about information transfer between short-term memory and long-term memory. According to Baddeley (2003a), there are four components of working memory, and among them, phonological loop (PL) has been investigated rigorously, with related to various language functions and its deficits.
 
-<img src="{{ '/assets/img/Multicomponent-Model-of-Working-Memory-from-Baddeley-2003b.png' | prepend: site.baseurl }}" alt="">
-
-Figure1. Working Memory model (Baddeley, 2003a)
+<figure>
+	<img src="{{ '/assets/img/Multicomponent-Model-of-Working-Memory-from-Baddeley-2003b.png' | prepend: site.baseurl }}" alt=""> 
+	<figcaption>Figure1. Working Memory Model (Baddeley, 2003a)</figcaption>
+</figure>
 
 The PL houses speech-based information and the memory trace to the PL fades after about 2 seconds. Articulatory control takes written material and converts it into a phonological code to be stored and rehearsal can re-strengthen a memory trace before it disappears. All these processes are supervised and coordinated by the central executive (CE) unit.
 
@@ -77,9 +78,10 @@ Based on this fact, we can assume that the PL has two distinct processes or neur
 
 To complete it, in Figure3, I suggested a revised ver- sion of PL model. It depicts the direct pathway in detail in view of unfamiliar sounds processing.
 
-<img src="{{ '/assets/img/Suggested Phonological Loop.png' | prepend: site.baseurl }}" alt="">
-
-Figure3. Suggested Phonological Loop
+figure>
+	<img src="{{ '/assets/img/Suggested Phonological Loop.png' | prepend: site.baseurl }}" alt=""> 
+	<figcaption>Figure3. Suggested Phonological Loop</figcaption>
+</figure>
 
 As shown before, though it has weakness as a complete theory, the concept of PAS is useful to account for how the brain deals with auditory inputs. After spectrotemporal analysis, each phonological sound is automatically stored in PAS automatically. At the same time, the phonological analysis tries to link it into the previous phonological forms, i.e. learned words. Accessed to the stored knowledge of each sound, the subvocal rehearsal process generates the phonological form from the Long-Term Memory (LTM). In this way, the PL stores internally generated phonological sequences as well as sequences of spoken stimuli.
 
