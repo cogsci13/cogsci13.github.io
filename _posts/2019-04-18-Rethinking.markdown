@@ -78,7 +78,7 @@ Based on this fact, we can assume that the PL has two distinct processes or neur
 
 To complete it, in Figure3, I suggested a revised ver- sion of PL model. It depicts the direct pathway in detail in view of unfamiliar sounds processing.
 
-figure>
+<figure>
 	<img src="{{ '/assets/img/Suggested Phonological Loop.png' | prepend: site.baseurl }}" alt=""> 
 	<figcaption>Figure3. Suggested Phonological Loop</figcaption>
 </figure>
