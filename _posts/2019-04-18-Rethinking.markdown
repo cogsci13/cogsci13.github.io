@@ -29,6 +29,10 @@ In summary, a simple decay hypothesis can explain the characteristics of the PL.
 Phonological Loop Revisited
 Based on the above evidences, Baddeley suggested the structure of PL as shown in Figure2.
 
+<img src="{{ '/assets/img/9781405148641_chapter_23_f1.gif' | prepend: site.baseurl }}" alt="">
+
+Figure2. Phonological Loop (Baddeley, 2003b)
+
 The major feature of the PL is that there is an articulatory loop to rehearse any phonological information. It may be confused by phonological similarity or indistinctiveness, but be strengthened by clear articulation. However, this can’t account for why the articulatory suppression erases the phonological similarity effect and the word-length effect only when the stimulus is presented visually. Also, under articulatory suppression, subjects can still judge rhymes and homophony of words. This means that there must be some other storage independent of articulatory rehearsal, i.e. phonological short-term store.
 
 In short, word-length effect reflects a control process of articulatory rehearsal, i.e. long words take longer to be rehearsed, whereas phonological similarity relies on a short-term store that is accessible by auditory stimuli or by visual stimuli having been coded phonologically. Re- hearsal is not yet guaranteed in this store, and articulatory suppression weakens memory in auditory presentation and prevents phonological recoding in visual presentation. This functional dichotomy of the PL is well depicted in Figure2.5
