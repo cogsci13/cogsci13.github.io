@@ -1,56 +1,38 @@
 ---
 layout: post
-title:  "Example Post Formatting"
-date:   2014-12-15
-description: This is a post description for meta purposes. This is also the excerpt of the article that shows up on the index/home page. Change this in the post YAML.
+title:  "Rethinking phonological loop in working memory model: phonological divergence of the direct pathway"
+date:   2019-04-18
 ---
 
-<p class="intro"><span class="dropcap">C</span>urabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Vestibulum id ligula porta felis euismod semper. Donec sed odio dui. Aenean lacinia bibendum nulla sed consectetur.</p>
+<p class="intro"><span class="dropcap">I</span>ntroduction. Most cognitively demanding tasks require temporal storages of transient information, i.e. short-term store (STS). It is located between sensory stores and long-term stores, and used to hold and manipulate information for cogni- tive tasks as a working memory1. Though the dual-task study2 showed that STS was really acting as a working memory, the processing time and accuracy weren’t enough to account for working memory. As a result, it was assumed that the working memory is not simply a singular storage unit like STS, but made up of a few components.</p>
 
-# Heading 1
+As a new approach, while replacing the concept of the STS, Baddeley and Hitch (1974) suggested the working memory (WM) model, and it has been successful in that it could explain non-unitary feature of STS and provide more specific explanation about information transfer between short-term memory and long-term memory. According to Baddeley (2003a), there are four components of working memory, and among them, phonological loop (PL) has been investigated rigorously, with related to various language functions and its deficits.
 
-## Heading 2
 
-### Heading 3
+Figure1. Working Memory model (Baddeley, 2003a)
 
-#### Heading 4
+The PL houses speech-based information and the memory trace to the PL fades after about 2 seconds. Articulatory control takes written material and converts it into a phonological code to be stored and rehearsal can re-strengthen a memory trace before it disappears. All these processes are supervised and coordinated by the central executive (CE) unit.
 
-##### Heading 5
+But, how can we accept the existence of the PL and its role in working memory? There are four psychological evidences for the PL. First, there is a phonological simi- larity effect. That is, errors which subjects made in remembering letter sequences tended to be phonologically, not graphematically related (Conrad, 1964). Also, se- quences of phonologically related letters are harder to remember than phonologically unrelated ones, e.g. letter sequenceBGVTPishardertorememberthanYHWK R (Conrad and Hull, 1964). This was also true in case of phonologically similar words, and as a result, Baddeley thought that the PL is articulatory-based.
 
-###### Heading 6
+Not all similarity is, however, detrimental for recall. On contrary, some similarity may be helpful for recall, e.g. categorized lists and rhyme of words. This is rather confusing one in that both similarity and dissimilarity benefit retention. To solve this puzzle, we should discriminate similarity and distinctiveness3. In this view, similarity only interferes with recall if it leads to confusion between the items, i.e. indistinctiveness of each item gives rise to confusion.
 
-<blockquote>Aenean lacinia bibendum nulla sed consectetur. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum. Nulla vitae elit libero, a pharetra augue. Curabitur blandit tempus porttitor. Donec sed odio dui. Cras mattis consectetur purus sit amet fermentum.</blockquote>
+The second evidence is known as word-length effect (Baddeley et al., 1975). When rehearsed, shorter words are remembered better. This suggests that capacity of the PL is determined by the temporal duration and that memory span is determined by the rate of rehearsal. Also, comparing same number of words but with different length showed that word duration is the crucial variable, not number of slots. Forgetting is the joint function of trace decay and rehearsal rate, and rehearsal is successful if it is faster than trace decay.
 
-Nullam quis risus eget urna mollis ornare vel eu leo. Cras mattis consectetur purus sit amet fermentum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
+If the subject has to produce meaningless speech (e.g. ‘the the the’) during recall task with visually presented stimuli (Articulatory suppression), the memory would decline and the phonological similarity effect would vanished. This indicates that working memory encodes visually presented verbal material into phonological code, which is a role of the PL. In other words, inhibition of subvocal rehearsal keeps articulatory loop from refreshing information from phonological store. This is supported from research with patients with brain damage (Shallice and Butterworth, 1977; Vallar and Baddeley, 1984).
 
-## Unordered List
-* List Item
-* Longer List Item
-  * Nested List Item
-  * Nested Item
-* List Item
+The last is an irrelevant or unattended speech effect. Irrelevant speech during presentation or retention phase of a memory experiment decreases memory performance, although the subject is told to ignore it. This is evidence that auditorily presented stimuli have automatic and mandatory access to a phonological system.4 That is, the qualitative nature of sound has an impact on accessing the phonological store and disrupting memory. The irrelevant speech effect showed additive effect, interacting with phonological similarity effect in auditory presentation of stimuli, which is not observed in visual presentation (Hanley and Bakopoulou, 2003).
 
-## Ordered List
-1. List Item
-2. Longer List Item
-    1. Nested OL Item
-    2. Another Nested Item
-3. List Item
+In summary, a simple decay hypothesis can explain the characteristics of the PL. The decay in a passive phonological store is deeply related with an articulatory process, which determines the memory performance. Additionally, the verbal material presented visually has indirect access to the PL via subvocal articulation. In this respect, the PL as well as the WM itself is not simply storage, but an active processing of transient information.
 
-## Definition List
-<dl>
-  <dt>Coffee</dt>
-  <dd>Black hot drink</dd>
-  <dt>Milk</dt>
-  <dd>White cold drink</dd>
-</dl>
+Phonological Loop Revisited
+Based on the above evidences, Baddeley suggested the structure of PL as shown in Figure2.
 
-Donec id elit non mi porta gravida at eget metus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas faucibus mollis interdum. Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam.
+The major feature of the PL is that there is an articulatory loop to rehearse any phonological information. It may be confused by phonological similarity or indistinctiveness, but be strengthened by clear articulation. However, this can’t account for why the articulatory suppression erases the phonological similarity effect and the word-length effect only when the stimulus is presented visually. Also, under articulatory suppression, subjects can still judge rhymes and homophony of words. This means that there must be some other storage independent of articulatory rehearsal, i.e. phonological short-term store.
 
-Cras justo odio, dapibus ac facilisis in, egestas eget quam. Curabitur blandit tempus porttitor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec id elit non mi porta gravida at eget metus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
+In short, word-length effect reflects a control process of articulatory rehearsal, i.e. long words take longer to be rehearsed, whereas phonological similarity relies on a short-term store that is accessible by auditory stimuli or by visual stimuli having been coded phonologically. Re- hearsal is not yet guaranteed in this store, and articulatory suppression weakens memory in auditory presentation and prevents phonological recoding in visual presentation. This functional dichotomy of the PL is well depicted in Figure2.5
 
-Maecenas faucibus mollis interdum. Maecenas faucibus mollis interdum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Etiam porta sem malesuada magna mollis euismod. Vestibulum id ligula porta felis euismod semper. Cras mattis consectetur purus sit amet fermentum.
+Phonological Short-term Store
+How does the phonological short-term store operate? Does it use lexical representations (words) or phonological representations (segments or syllables)? To resolve this question, we may use lexical and phonological distractors during recall task. That is, recalling sequences of digits shows almost identical performance under both phonologically similar words and auditory digits distractors, whereas it shows least disruptive performance under phonologically dissimilar words distracters. From this, we could assume that the phonological store operates at the level of individual phonemes or syllables rather than on lexical representations.
 
-Sed posuere consectetur est at lobortis. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.
-
-Curabitur blandit tempus porttitor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Maecenas faucibus mollis interdum. Nullam id dolor id nibh ultricies vehicula ut id elit.
+Then, how does the auditory verbal material have automatic access to language processing? The irrelevant speech effect shows the automatic access to the PL. And, according to Fodor, if any stimulus is meaningful, it is automatically accessed to the syntactic parser (Parsing is a reflex). The automaticity is very crucial feature of the PL and verbal working memory. But, how can we know whether one stimulus is language or non-language? That is, would the meaningfulness of the stimulus affect automatic access? This question would be critical issue with respect to exploring the current structure of the PL.
