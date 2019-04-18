@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Test Post"
-date:   2014-12-10
+title:  "Rethinking phonological loop in working memory model: phonologi- cal divergence of the direct pathway"
+date:   2019-04-18
 ---
 
 <p class="intro"><span class="dropcap">L</span>orem ipsum thor smash liege-bastogne-liege landbouwkrediet ombregt krabbe, rouleur derby is for lovers bonk giro gilbert bidon. Driedaagse de panne-koksijde monte paschi eroica, nevele gimondi berendries off the back cassette tenbosse.</p>
