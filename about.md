@@ -9,7 +9,7 @@ title: About
 		<img src="{{ '/assets/img/x3d-RqUF_400x400.jpg' | prepend: site.baseurl }}" alt="">
 	</figure>
 	<p class="intro"><a href="https://en.wikipedia.org/wiki/Cognitive_science">Cognitive Scientist</a>, <a href="https://en.wikipedia.org/wiki/Artificial_intelligence">AI</a> Researcher, and <a href="https://en.wikipedia.org/wiki/Entrepreneurship">Entrepreneur</a>.</p>
-	<p>Love to be an innovation maker.</p>
+	<p>Love to be an innovative maker.</p>
 	<h2>Interests</h2>
 	<ul>
 		<li>Cognitive model of human mind and intelligence</li>
