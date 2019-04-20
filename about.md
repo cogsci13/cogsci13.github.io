@@ -5,7 +5,9 @@ title: About
 
 <div class="post">
 	<h1 class="pageTitle">About Myself</h1>
-	<img src="{{ '/assets/img/x3d-RqUF_400x400.jpg' | prepend: site.baseurl }}" alt="">
+	<figure>
+		<img src="{{ '/assets/img/x3d-RqUF_400x400.jpg' | prepend: site.baseurl }}" alt="">
+	</figure>
 	<p class="intro"><a href="https://en.wikipedia.org/wiki/Cognitive_science">Cognitive Scientist</a>, <a href="https://en.wikipedia.org/wiki/Artificial_intelligence">AI</a> Researcher, and <a href="https://en.wikipedia.org/wiki/Entrepreneurship">Entrepreneur</a>.</p>
 	<p>Love to be an innovation maker.</p>
 	<h2>Interests</h2>
