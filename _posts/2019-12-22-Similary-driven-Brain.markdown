@@ -275,7 +275,7 @@ Because we use quantum neurodynamics, all energy distributions can be represente
 
 <figure>
 	<img src="{{ '/assets/img/sdb19.png' | prepend: site.baseurl }}" alt=""> 
-	<figcaption>Figure19. The Binomial distribution when N=10 and u=0.25.<figcaption>
+	<figcaption>Figure19. The Binomial distribution when N=10 and u=0.25.</figcaption>
 </figure>
 
 Applying the binomial distribution to neural activity, we should predict m spikes out of N stimulus with p firing probability. The m and N values are given by training set. But, the firing probability p should be determined by training. The firing probability can change whenever the stimulus is changed. To get right probability, a Bayesian method is introduced. In the Bayesian method, the posterior probability is determined by the prior probability and likelihood function.
