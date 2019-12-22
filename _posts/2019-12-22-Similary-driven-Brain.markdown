@@ -29,6 +29,7 @@ Then, let’s see in brief what is different from conventional approach, e.g. Vo
 - Inherent contextual information processing
 - Fault tolerance
 - Low energy consumption
+
 Firstly, the ANN uses massive parallelism in computation. Although modern parallel computers also use parallelism in computation, their parallelism is only for speeding the whole operations. That is, there still exists central processor (or processors in case of multi-processor system) to control the overall system. So, the whole operations are controlled sequentially by the processor. Unlike this, the ANN has no central processor and functions of the ANN are determined by the connectivity of ANN itself.
 Owing to this feature, the ANN has distributed representation and computation. It means that the ANN doesn’t have any symbol representation of single node. All data or functions are represented with a lot of nodes or neurons. Thus, the ANN is more robust than symbolic approach. In representation of a single node, in case that a fault occurs at any node, the node output is fully corrupted and may cause a severe failure of the whole operation. However, in distributed representation, a failure at one of many distributed patterns is not critical to the whole operation and thus the ANN has fault tolerance feature.
 Another advantage to note in the ANN is learning ability. In fact, the learning ability is an essential feature of artificial intelligence, and is important when implementing all ANN systems. At the same time, learning is not an easy process and determines the performance of the ANN. The learning ability is consistent with the adaptivity feature. If a system has a learning ability, it is also believed that it is likely to adapt to new environment or stimulus.
@@ -131,7 +132,7 @@ To overcome this problem, I introduced the concept of Non-Negative Matrix Factor
 
 <figure>
 	<img src="{{ '/assets/img/sdb07.png' | prepend: site.baseurl }}" alt=""> 
-	<figcaption>Figure7. The output face (V) is computed by summing the multip- lication of feature vectors (W) and encoding vectors (H), which can be implemented by ANN.</figcaption>
+	<figcaption>Figure7. The output face (V) is computed by summing the multiplication of feature vectors (W) and encoding vectors (H), which can be implemented by ANN.</figcaption>
 </figure>
 
 This factorization process can be taken differently by algorithms. In case of VQ (Vector Quantization), typical faces in the training set are selected as feature vectors. The encoding process is defined as an estimation of the original face from any typical faces by calculating the difference. PCA (Principal Component Analysis) has similar process except for the feature vectors are not a typical face, but an eigenface. The PCA extracts most integral elements of data by orthogonal transformation. As a result, we have parameterized simple face features.
@@ -183,6 +184,7 @@ While implementing a distributed representation, a similarity between inputs is 
 - Transitivity:ifA~B,andB~C,thenA~C
 - Symmetry:ifA~B,thenB~A
 - Reflexivity: A ~ A
+
 In above relation, “A ~ B” means that A is equivalent to B. I suppose that this relationship can be applied to neuronal connections. Assume that neuronal circuit finds a similarity among inputs. If some inputs activate similar neurons, then they’ll have close relationship. For example, in case of pattern recognition, if two input images are similar, they will activate similar neurons. Thus, if we apply equality on a set to neuronal circuit, the following rules are obtained.
 - Transitivity: if A and B neurons are related and B and C neurons are related, then A and C neurons are also related.
 - Symmetry: if A is dependent on B, then B is also dependent on A.
