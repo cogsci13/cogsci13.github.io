@@ -45,7 +45,7 @@ Unlike pattern classification, clustering doesn’t have supervisor. That means,
 
 <figure>
 	<img src="{{ '/assets/img/sdb01.png' | prepend: site.baseurl }}" alt=""> 
-	<figcaption>Figure1. Tasks that neural networks can perform: (1) pattern clas- sification; (2) clustering/categorization; (3) function approxima- tion; (4) prediction/forecasting (a stock market); (5) optimization (a TSP problem example); (6) retrieval by content; and (7) control (engine idle speed). (Excerpted from DARPA Neural Network Study)</figcaption>
+	<figcaption>Figure1. Tasks that neural networks can perform: (1) pattern classification; (2) clustering/categorization; (3) function approximation; (4) prediction/forecasting (a stock market); (5) optimization (a TSP problem example); (6) retrieval by content; and (7) control (engine idle speed). (Excerpted from DARPA Neural Network Study)</figcaption>
 </figure>
 
 Function Approximation
