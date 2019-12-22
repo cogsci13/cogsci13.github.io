@@ -340,6 +340,7 @@ Explanation of real neuron and brain
 The last issue is the biological or neurological explanation of SFNN. From the beginning, the SFNN is modeled with various biological facts or results, and its main purpose is to study real brain behavior, not industrial application. Therefore, it must be able to explain the real brain behavior and even predict its behavior in specific condition. Though it can’t explain our brain behavior, however, it has at least an industrial application.
 
 ACKNOWLEDGMENTS
+
 I utilized Matlab® R2007a to design an experiment and make a model for the simple logical operation case to verify my idea.
 
 REFERENCES
