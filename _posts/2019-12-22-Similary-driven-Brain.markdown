@@ -162,7 +162,7 @@ Conceptually, sparsity corresponds to systems which are loosely coupled. In a sp
 
 <figure>
 	<img src="{{ '/assets/img/sdb10.png' | prepend: site.baseurl }}" alt=""> 
-	<figcaption>Figure10. The responses of Mitral/Tufted (M/T) cells in olfactory system of rat to 25 odorants are shown (Davison and Katz 2007). Among all odorants, each neuron in A and B shows highly selec- tive response to only 3 odorants.</figcaption>
+	<figcaption>Figure10. The responses of Mitral/Tufted (M/T) cells in olfactory system of rat to 25 odorants are shown (Davison and Katz 2007). Among all odorants, each neuron in A and B shows highly selective response to only 3 odorants.</figcaption>
 </figure>
 
 The result shows that when activated by odorants, M/T cells are selective, with neurons responding robustly, sensitively, and reliably to only a highly restricted subset of stimuli. Also, for multiple odorants, a single neuron shared structural similarity in common. This suggests that individual M/T neurons encode specific odorant attributes shared by only a small fraction of compounds and narrowly tuned to a particular stimulus characteristic.
@@ -173,7 +173,7 @@ Long-Term Potentiation is a well-known phenomenon which is regarded as a synapti
 
 <figure>
 	<img src="{{ '/assets/img/sdb11.png' | prepend: site.baseurl }}" alt=""> 
-	<figcaption>Figure11. After training somatosensory circuit (barrel cortex) by stimulating mice whisker, to respond with LTP, NMDAR block reveals mGluR- and Ca2+-dependent LTP at spared column syn- apses. Refer to the text for detail descriptions.</figcaption>
+	<figcaption>Figure11. After training somatosensory circuit (barrel cortex) by stimulating mice whisker, to respond with LTP, NMDAR block reveals mGluR- and Ca2+-dependent LTP at spared column synapses. Refer to the text for detail descriptions.</figcaption>
 </figure>
 
 They removed all whiskers of mice except for one target whisker and stimulated it repetitively until it shows LTP phenomenon. Generally, LTP is believed to occur by NMDA receptor (NMDAR). But, they found that there is still LTP after blocking NMDAR by applying APV, which is an antagonist of NMDAR (B). This phenomenon disappeared by inclusion of BAPTA, which is a chelator of Ca2+ (C). That means the LTP without NMDAR needs postsynaptic Ca2+ entry.
@@ -181,11 +181,11 @@ Now, the puzzle is to find what is related to Ca2+-dependent LTP. Through some t
 To achieve this dynamic process in a neuron, a neuron should monitor itself. In other words, self-monitoring process is needed. Thus, I guess that there is a self-loop in a neuron, which is activated or deactivated by itself. This is another point to note when modeling ANN.
 Equivalence Network
 While implementing a distributed representation, a similarity between inputs is considerable. Thus, how to implement similarity on a network is crucial issue. In mathematics, equivalence on a set is defined as the following conditions.
-- Transitivity:ifA~B,andB~C,thenA~C
-- Symmetry:ifA~B,thenB~A
+- Transitivity: if A~B,and B~C,then A~C
+- Symmetry: if A~B,then B~A
 - Reflexivity: A ~ A
 
-In above relation, “A ~ B” means that A is equivalent to B. I suppose that this relationship can be applied to neuronal connections. Assume that neuronal circuit finds a similarity among inputs. If some inputs activate similar neurons, then they’ll have close relationship. For example, in case of pattern recognition, if two input images are similar, they will activate similar neurons. Thus, if we apply equality on a set to neuronal circuit, the following rules are obtained.
+In above relation, “A~B” means that A is equivalent to B. I suppose that this relationship can be applied to neuronal connections. Assume that neuronal circuit finds a similarity among inputs. If some inputs activate similar neurons, then they’ll have close relationship. For example, in case of pattern recognition, if two input images are similar, they will activate similar neurons. Thus, if we apply equality on a set to neuronal circuit, the following rules are obtained.
 - Transitivity: if A and B neurons are related and B and C neurons are related, then A and C neurons are also related.
 - Symmetry: if A is dependent on B, then B is also dependent on A.
 - Reflexivity: if A is dependent on itself.
