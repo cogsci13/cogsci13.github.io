@@ -221,7 +221,6 @@ The following Figure13 shows a basic cell of SFNN.
 <figure>
 	<img src="{{ '/assets/img/sdb13.png' | prepend: site.baseurl }}" alt=""> 
 	<figcaption>Figure13. A basic cell of SFNN is shown here. The basic cell has two inputs (x1, x2) and one output (y1). This model represents a single neuron which two pre-synaptic inputs. Two filled circles show those two synapses, not neurons, on the contrary to the usual notation.</figcaption>
-</figcaption>
 </figure>
 
 The main difference between SFNN model and the previous ANN models is that SFNN model uses synapse-based representation. That is, the cell body or soma integrates all inputs from pre-synaptic neurons and generates spikes if the stimuli go beyond the cell firing level. In this sense, all functions of neuron are mainly dependent on synaptic binding. I made a scale-free network model for synaptic binding within a neuron, as well as in a large scale neural network.
@@ -232,8 +231,8 @@ The output of a neuron in SFNN is not constrained by a single value. The SFNN ha
 
 <figure>
 	<img src="{{ '/assets/img/sdb14.png' | prepend: site.baseurl }}" alt=""> 
-	<figcaption>Figure14. The SFNN can be expanded freely. All networks are fully connected./figcaption>
-</figcaption>
+	<figcaption>Figure14. The SFNN can be expanded freely. All networks are fully connected.</figcaption>
+</figure>
 
 Quantum Neurodynamics
 The signal transfers within in a single neuron can be represented by discrete amounts, spike. That is, quantized neural activity (spike) generates a stream of ions and this makes a post-synaptic ion current. The integrated ion current can generate a spike whenever it comes up to a certain potential level.
@@ -241,19 +240,19 @@ The signal transfers within in a single neuron can be represented by discrete am
 <figure>
 	<img src="{{ '/assets/img/sdb15.png' | prepend: site.baseurl }}" alt=""> 
 	<figcaption>Figure15. The signal transfers within a neuron. The pre-synaptic spikes are merged in a soma and make a post-synaptic current.</figcaption>
-</figcaption>
+</figure>
 
 Thus, we can use a quantized leaky integrator model as a basic signal pattern like in Figure16. If the time decay factor τ is large enough, this model is equivalent to classical rate model, which describes a neural activity in terms of continuous variable rate of spiking. The Figure17 shows it clearly.
 
 <figure>
 	<img src="{{ '/assets/img/sdb16.png' | prepend: site.baseurl }}" alt=""> 
 	<figcaption>Figure16. The leaky integrator model of ion current in a neuron after a spike is generated. The current level decreases exponentially as time goes by.</figcaption>
-</figcaption>
+</figure>
 
 <figure>
 	<img src="{{ '/assets/img/sdb17.png' | prepend: site.baseurl }}" alt=""> 
 	<figcaption>Figure17. Classical rate model and quantized spike model. As the decay factor is larger, the spike model becomes similar to rate model.</figcaption>
-</figcaption>
+</figure>
 
 Simple Characteristics of SFNN
 The SFNN is a quantized leaky integrated model and uses quantum neurodynamics. Also, it adopts a bayesian probabilistic model. Consider it in Figure18.
@@ -261,7 +260,7 @@ The SFNN is a quantized leaky integrated model and uses quantum neurodynamics. A
 <figure>
 	<img src="{{ '/assets/img/sdb18.png' | prepend: site.baseurl }}" alt=""> 
 	<figcaption>Figure18. It shows a simple behavior of SFNN in case two inputs are given. The SFNN finds a similarity between two inputs.</figcaption>
-</figcaption>
+</figure>
 
 The SFNN always finds a similarity between inputs. The similarity is defined in two different perspectives: inter-similarity and intra-similarity. Whereas the inter-similarity indicates how much similar the current inputs are with the previous ones in temporal comparison, the intra-similarity indicates how much similar the inputs are at a certain time. The Figure18 shows an intra similarity between y1 and y2. The inputs of SFNN are always discrete values, and the outputs of SFNN are energy patterns drawn from calculating similarities, which are Expectation Values of spikes.
 To train a SFNN, calculate an energy distribution of outputs when a training set is given. If the distribution is not equal to the desired outputs, which is a supervised mode, then calculate new spike probability and adjust it. To get more precise result, I applied Bayesian probabilistic method. Based on these results, calculate new energy distribution and repeat the whole process until the outputs are satisfied. This learning rule is shown in the followings.
@@ -277,7 +276,7 @@ Because we use quantum neurodynamics, all energy distributions can be represente
 <figure>
 	<img src="{{ '/assets/img/sdb19.png' | prepend: site.baseurl }}" alt=""> 
 	<figcaption>Figure19. The Binomial distribution when N=10 and u=0.25.<figcaption>
-</figcaption>
+</figure>
 
 Applying the binomial distribution to neural activity, we should predict m spikes out of N stimulus with p firing probability. The m and N values are given by training set. But, the firing probability p should be determined by training. The firing probability can change whenever the stimulus is changed. To get right probability, a Bayesian method is introduced. In the Bayesian method, the posterior probability is determined by the prior probability and likelihood function.
 Because I used a binomial probability distribution as a likelihood function, to get tractable form of calculation, I used a beta distribution, which is conjugates form of prior. The posterior is the product of the prior and likelihood, and becomes also a beta distribution. A typical beta distribution is shown in Figure20.
@@ -285,27 +284,27 @@ Because I used a binomial probability distribution as a likelihood function, to 
 <figure>
 	<img src="{{ '/assets/img/sdb20.png' | prepend: site.baseurl }}" alt=""> 
 	<figcaption>Figure20. The Beta distribution when the hyperparameters a and b have various values.</figcaption>
-</figcaption>
+</figure>
 
 As seen in Figure20, the beta distribution is adjustable by hyperparameters a and b, which can change the probability distribution. In this respect, the learning in SFNN is to find the values of a and b to satisfy the given conditions in the Bayesian paradigm.
 The posterior probability is like this:
 
 <figure>
 	<img src="{{ '/assets/img/sdb-1.png' | prepend: site.baseurl }}" alt=""> 
-</figcaption>
+</figure>
 
 And, the firing probability calculated by the posterior probability is shown here, where l = N – m.
 
 <figure>
 	<img src="{{ '/assets/img/sdb-2.png' | prepend: site.baseurl }}" alt=""> 
-</figcaption>
+</figure>
 
 For example, the Figure21 shows a calculation process of the posterior probability distribution graphically. With the prior distribution (left) and likelihood function (middle), the posterior probability can be calculated.
 
 <figure>
 	<img src="{{ '/assets/img/sdb21.png' | prepend: site.baseurl }}" alt=""> 
 	<figcaption>Figure21. The posterior probability calculation process is shown.</figcaption>
-</figcaption>
+</figure>
 
 Logical Operations (Example)
 To find out how much the SFNN works well, I tried to apply it to a simple logical operations, AND and OR. It is so simple that we can implement it with two inputs and one output in Matlab® R2007a environment. The training set is also simple so that it consists of four sample data for each training set. The learning is done in supervised mode, and only one energy distribution is compared. The following Figure22 shows the designed model and the result.
@@ -313,7 +312,7 @@ To find out how much the SFNN works well, I tried to apply it to a simple logica
 <figure>
 	<img src="{{ '/assets/img/sdb22.png' | prepend: site.baseurl }}" alt=""> 
 	<figcaption>Figure22. The proposed model is applied to logical operations such as AND and OR. Whereas AND operation needs more epoch to train it, OR operation is trained only in one time. This seems to be due to the fact that SFNN is basically an integrator so that its operation is based on OR-ing of inputs.</figcaption>
-</figcaption>
+</figure>
 
 Two synapses are fully connected and their relationship, that is, similarity is evaluated by firing probabilities. There are two types of connections: self-loop and interconnections. The former indicates self-reinforcement effect such as LTP, and the latter indicates inter-synapse effects such as hebbian learning.
 Sensory to Motor
@@ -323,7 +322,7 @@ At each level, the SFNN looks for any similarities between inputs and generates 
 <figure>
 	<img src="{{ '/assets/img/sdb23.png' | prepend: site.baseurl }}" alt=""> 
 	<figcaption>Figure23. The sensory to motor pathway modeling using SFNNs is shown here. All hierarchical levels have distinct SFNNs.</figcaption>
-</figcaption>
+</figure>
 
 In contrast, the PART-OF connection consists of many directed arcs that are connected to one target node, or vice versa. This means that there is a composition or decomposition of information. Those two conceptual connections are useful to implement systematic functions of brain.
 In this way, the proposed Scale-Free Neural Network is useful for modeling real brain, as well as implementing artificial intelligence.
