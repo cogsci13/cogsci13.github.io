@@ -16,6 +16,7 @@ I have three objectives in this work, as shown in the following.
 - Brief review of previous Artificial Neural Networks
 - Study of the basic neuronal architecture and its implications
 - Suggestion of new neural network and verification of its operations
+
 This is a tentative work, and therefore various applications using the proposed model are not tested here. But, the crucial idea of this model is fully described and I guess that it is possible to develop any specific application based on this model.
 
 Neural Networks Revisited
